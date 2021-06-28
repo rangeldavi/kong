@@ -8,7 +8,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 variables:
-  ImageName: 'rangeldavi/kong:$(Build.BuildId)'
+  ImageName: 'davirangel/kong:$(Build.BuildId)'
  
 stages:
 - stage: Build
