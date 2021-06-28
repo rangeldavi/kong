@@ -8,7 +8,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 variables:
-  ImageName: 'wolfgangofner/microservicedemo:$(Build.BuildId)'
+  ImageName: 'davirangel/kong2:$(Build.BuildId)'
  
 stages:
 - stage: Build
